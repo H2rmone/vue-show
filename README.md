@@ -4,6 +4,10 @@
 <a href="https://npmjs.com/package/vue-show" target="\_parent">
 <img alt="" src="https://img.shields.io/npm/dm/vue-show.svg" />
 </a>
+<a href="https://npmjs.com/package/vue-show" target="\_parent">
+<img alt="" src="https://img.shields.io/npm/v/vue-show.svg" />
+</a>
+
 
 A dependency-free vertical show/hide component for Vue.
 
