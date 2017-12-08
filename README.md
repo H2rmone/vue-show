@@ -12,6 +12,9 @@ This package was inspired by [React Show](https://github.com/react-tools/react-s
 ## Why?
 You need to show & hide vue components. Everyone does! Of course you want it to be simple and lightweight. But most of all you don't want to bloat up your app with things like custom physics-based animation frameworks or even jQuery (heaven forbid). `vue-show` is the answer. Read on!
 
+## Live Demo
+https://h2rmone.github.io/vue-show/
+
 ## Features
 - Powered by CSS animations. Put that on the GPU baby!
 - Extremely easy to control. It's all in the props!
@@ -53,8 +56,7 @@ The default export and main component for Vue-Show.
 | `transitionOnMount`  	|          	| `false`        	| Determines whether to animate from a hidden to a shown state on mount       	|
 | `minHeight`          	|          	|                	| The minimum hight of the content. Beware using with `unmountOnHide={true}`! 	|
 | `height`             	|          	|                	| The optional fixed height of the children when open                         	|
-| `style`              	|          	|                	| The standard react style object                                             	|
-| `className`          	|          	|                	| The standard react class string                                             	|
+
 
 #### `VueShow.easings`
 React-Show comes packaged with some awesome easings that are accessible via `VueShow.easings`. They are extremely simple to use too:
