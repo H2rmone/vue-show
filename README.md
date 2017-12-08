@@ -58,7 +58,7 @@ The default export and main component for Vue-Show.
 | `transitionProperty` 	|          	| `height`       	| The `transition-property` used to show the content                          	|
 | `unmountOnHide`      	|          	| `false`        	| Determines whether the children will be unmounted when not visible.         	|
 | `transitionOnMount`  	|          	| `false`        	| Determines whether to animate from a hidden to a shown state on mount       	|
-| `minHeight`          	|          	|                	| The minimum hight of the content. Beware using with `unmountOnHide={true}`! 	|
+| `minHeight`          	|          	|                	| The minimum hight of the content. Beware using with `:unmount-on-hide="true"`! 	|
 | `height`             	|          	|                	| The optional fixed height of the children when open                         	|
 
 
