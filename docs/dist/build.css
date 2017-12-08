@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Monaco; }
+
+li {
+  list-style: none; }
+
+.app {
+  padding: 0 80px; }
+
+button {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0;
+  outline: none;
+  padding: 10px 0;
+  text-align: center;
+  border: 0;
+  color: gray;
+  transition: all .3s ease;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28); }
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0;
+  color: #42b983; }
+
+.easings {
+  margin-top: 20px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28); }
+  .easings ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0; }
+  .easings li {
+    width: 120px;
+    margin: 10px; }
+
+.active {
+  color: #fff;
+  background-color: #42b983; }
+
