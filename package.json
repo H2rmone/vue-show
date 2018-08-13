@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "description": "vue-show",
   "main": "./dist/index.js",
+  "repository": "github:H2rmone/vue-show",
   "scripts": {
     "start": "rollup -cw",
     "build": "rollup --config rollup.config.prod.js",
